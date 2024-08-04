@@ -28,7 +28,7 @@ function Home() {
                             {/* <span >Developer</span> */}
                             <ReactTyped
                                 className="text-red-700 font-bold"
-                                strings={["Shivam Yadav", "a Software Developer", "a Programmer"]}
+                                strings={["Shivam Yadav", "Software Developer", "a Programmer"]}
                                 typeSpeed={50}
                                 backSpeed={50}
                                 loop={true}
