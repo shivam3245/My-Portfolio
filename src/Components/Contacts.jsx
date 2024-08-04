@@ -40,9 +40,10 @@ function Contacts() {
                         onSubmit={handleSubmit(onSubmit)}
                         //action="https://getform.io/f/alljgpla"
                         //method="POST"
-                        className="bg-white w-96 px-8 py-6 rounded-xl border border-2 border-black animate-darkToLight"
+                        className="bg-white w-72 md:w-96  px-8 py-6 rounded-xl border border-2 border-black animate-darkToLight"
                     >
-                        <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
+                        <div className="md:flex md:justify-center sm:flex sm:justify-center">
+                            <h1 className="text-xl font-semibold mb-4 p-1">Send Your Message</h1></div>
                         <div className="flex flex-col mb-4 ">
                             <label className="block text-gray-700">FullName</label>
                             <input

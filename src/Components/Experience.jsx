@@ -10,7 +10,6 @@ function Experience() {
                 'Worked on Bizapp which is a business application of the organization for producers and actors and employess',
                 'got hands on building Producer Employment Form using Reactvite and Bootstrap ',
                 'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.',
-                'Impemented all the modern form techniques and features required in this section of the application',
             ],
         },
         {
