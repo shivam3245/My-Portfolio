@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
+import { ReactTyped } from "react-typed";
 
 function Contacts() {
     const {
@@ -32,9 +33,19 @@ function Contacts() {
                 className="max-w-screen-2xl container px-4 md:px-20 bg-gradient-to-b from-blue-200 to-gray-950"
             >
                 <div className="flex justify-center pt-20">
-                    <h1 className="text-2xl md:text-3xl font-bold mb-4">Contact me</h1></div>
+                    <h1 className="text-2xl md:text-3xl font-bold mb-4">
+                        <ReactTyped
+                            className="text-black font-bold pl-2"
+                            strings={["Contact me"]}
+                            typeSpeed={50}
+                            backSpeed={50}
+                            loop={true}
+                        />
+                    </h1>
 
-                <div className="flex justify-center text-sm md:text-lg"><span>Please fill out the form below to contact me</span></div>
+                </div>
+
+                <div className="flex justify-center text-sm md:text-lg px-6 md:px-10"><span>Please fill out the form below to contact me</span></div>
                 <div className=" flex flex-col items-center justify-center mt-5">
                     <form
                         onSubmit={handleSubmit(onSubmit)}
