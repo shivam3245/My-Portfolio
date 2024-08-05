@@ -16,8 +16,8 @@ const SkillCategory = ({ category, selectedCategory, setSelectedCategory }) => {
             className={`flex items-center justify-center p-4 mx-3 rounded-lg cursor-pointer transition-transform transform ${isSelected ? 'bg-purple-600 scale-105' : 'bg-gray-800 hover:scale-105'
                 }`}
         >
-            <div className=" ">{icons[category]}</div>
-            <span className="text-center text-xl font-semibold p-0.5">{category}</span>
+            <div>{icons[category]}</div>
+            <span className="text-center text-sm md:text-lg font-semibold p-0.5">{category}</span>
         </div>
     );
 };

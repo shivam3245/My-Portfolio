@@ -34,7 +34,7 @@ function Contacts() {
                 <div className="flex justify-center pt-20">
                     <h1 className="text-2xl md:text-3xl font-bold mb-4">Contact me</h1></div>
 
-                <div className="flex justify-center"><span>Please fill out the form below to contact me</span></div>
+                <div className="flex justify-center text-sm md:text-lg"><span>Please fill out the form below to contact me</span></div>
                 <div className=" flex flex-col items-center justify-center mt-5">
                     <form
                         onSubmit={handleSubmit(onSubmit)}
@@ -42,8 +42,8 @@ function Contacts() {
                         //method="POST"
                         className="bg-white w-72 md:w-96  px-8 py-6 rounded-xl border border-2 border-black animate-darkToLight"
                     >
-                        <div className="md:flex md:justify-center sm:flex sm:justify-center">
-                            <h1 className="text-xl font-semibold mb-4 p-1">Send Your Message</h1></div>
+                        <div className="sm:flex sm:justify-center">
+                            <h1 className="text-md md:text-xl font-semibold mb-4 p-1">Send Your Message</h1></div>
                         <div className="flex flex-col mb-4 ">
                             <label className="block text-gray-700">FullName</label>
                             <input
