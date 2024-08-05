@@ -32,7 +32,7 @@ function Contacts() {
                 className="max-w-screen-2xl container px-4 md:px-20 bg-gradient-to-b from-blue-200 to-gray-950"
             >
                 <div className="flex justify-center pt-20">
-                    <h1 className="text-3xl font-bold mb-4">Contact me</h1></div>
+                    <h1 className="text-2xl md:text-3xl font-bold mb-4">Contact me</h1></div>
 
                 <div className="flex justify-center"><span>Please fill out the form below to contact me</span></div>
                 <div className=" flex flex-col items-center justify-center mt-5">

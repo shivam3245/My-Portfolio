@@ -25,7 +25,7 @@ function Experience() {
 
     return (
         <div name="Work Experience" className="bg-gradient-to-b from-gray-950 to-blue-200 text-white p-10 shadow-lg max-w-8xl mx-auto pt-16">
-            <h2 className="text-xl md:text-3xl font-bold text-center mb-8 hover:scale-110 duration-200 cursor-pointer">Work Experience</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 hover:scale-110 duration-200 cursor-pointer">Work Experience</h2>
             <div className="flex flex-col md:flex-row space-y-4 md:space-x-4 md:space-y-0 md:text-lg text-sm">
                 {experiences.map((experience, index) => (
                     <ExperienceItem key={index} experience={experience} />

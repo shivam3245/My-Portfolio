@@ -32,7 +32,7 @@ const projects = [
 const Projects = () => {
     return (
         <div name='Projects' className='bg-gradient-to-b from-blue-200 to-blue-200'>
-            <div className='flex justify-center text-black font-bold text-3xl md:text-4xl pt-4'>
+            <div className='flex justify-center text-black font-bold text-2xl md:text-3xl pt-4'>
                 <h1>My Projects</h1>
             </div>
             <div className="flex flex-wrap justify-center gap-8 p-8">
