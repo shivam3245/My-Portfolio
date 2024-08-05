@@ -8,7 +8,8 @@ function Skills() {
     const skills = {
         Frontend: [
             { name: 'HTML5', level: '80%' },
-            { name: 'CSS3 (Sass/SCSS)', level: '50%' },
+            { name: 'Tailwind CSS', level: '50%' },
+            { name: 'BootStrap', level: '50%' },
             { name: 'JavaScript', level: '65%' },
             { name: 'React.js', level: '60%' },
         ],
@@ -34,8 +35,8 @@ function Skills() {
     return (
         <div name="Skills" className=''>
             <div className="bg-gradient-to-b from-slate-400 to-gray-950 text-white pl-8 pr-8 pt-5 pb-[8%] shadow-lg max-w-8xl ">
-                <h2 className="text-3xl font-extrabold text-black text-center mb-8">Technical Skills</h2>
-                <div className="grid grid-cols-2 gap-4 mb-8">
+                <h2 className="text-2xl md:text-3xl font-extrabold text-black text-center mb-8">Technical Skills</h2>
+                <div className="grid grid-cols-2 gap-4 mb-8 ">
                     {Object.keys(skills).map((category) => (
                         <SkillCategory
                             key={category}
@@ -45,7 +46,7 @@ function Skills() {
                         />
                     ))}
                 </div>
-                <SkillList skills={skills[selectedCategory]} />
+                <SkillList skills={skills[selectedCategory]} category={selectedCategory} />
             </div>
         </div>
     );
