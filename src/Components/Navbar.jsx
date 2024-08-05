@@ -52,11 +52,11 @@ function Navbar() {
                 </div>
                 {/* mobile navbar */}
                 {menu && (
-                    <div className="bg-black ">
-                        <ul className="md:hidden flex flex-col text-white h-screen items-center justify-center space-y-3 text-xl">
+                    <div className="bg-gradient-to-b from-black to-purple-950 h-96 border rounded-md flex justify-center">
+                        <ul className="md:hidden flex flex-col text-white  items-center justify-center space-y-7 text-xl">
                             {navItems.map(({ id, text, section }) => (
                                 <li
-                                    className="hover:scale-125 duration-200 font-semibold cursor-pointer"
+                                    className="hover:scale-125 duration-200 cursor-pointer"
                                     key={id}
                                 >
                                     <Link
