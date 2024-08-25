@@ -34,8 +34,8 @@ function Skills() {
 
     return (
         <div name="Skills" className=''>
-            <div className="bg-gradient-to-b from-slate-400 to-gray-950 text-white pl-8 pr-8 pt-5 pb-[8%] shadow-lg max-w-8xl ">
-                <h2 className="text-2xl md:text-3xl font-extrabold text-black text-center mb-8">Technical Skills</h2>
+            <div className="bg-black text-white pl-8 pr-8 pt-5 pb-[8%] shadow-lg max-w-8xl ">
+                <h2 className="text-2xl md:text-3xl font-extrabold text-white text-center mb-8">Technical Skills</h2>
                 <div className="grid grid-cols-2 gap-4 mb-8 ">
                     {Object.keys(skills).map((category) => (
                         <SkillCategory
