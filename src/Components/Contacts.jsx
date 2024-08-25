@@ -35,7 +35,7 @@ function Contacts() {
                 <div className="flex justify-center pt-20">
                     <h1 className="text-2xl md:text-3xl font-bold mb-4">
                         <ReactTyped
-                            className="text-black font-bold pl-2"
+                            className="text-white font-bold pl-2"
                             strings={["Contact me"]}
                             typeSpeed={50}
                             backSpeed={50}
@@ -45,7 +45,7 @@ function Contacts() {
 
                 </div>
 
-                <div className="flex justify-center text-sm md:text-lg px-6 md:px-10"><span>Please fill out the form below to contact me</span></div>
+                <div className="flex justify-center text-white text-sm md:text-lg px-6 md:px-10"><span>Please fill out the form</span></div>
                 <div className=" flex flex-col items-center justify-center mt-5">
                     <form
                         onSubmit={handleSubmit(onSubmit)}

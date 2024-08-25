@@ -18,7 +18,7 @@ function Home() {
         <>
             <div
                 name="Home"
-                className="max-w-screen-2xl container pt-1 pb-5 md:h-screen px-4 md:px-20  bg-[url(https://static.vecteezy.com/system/resources/thumbnails/023/308/046/small/abstract-grey-metallic-overlap-on-dark-circle-mesh-pattern-blank-space-design-modern-luxury-futuristic-background-vector.jpg)] bg-fixed bg-cover bg-center"
+                className="max-w-screen-2xl container pt-1 pb-5 md:h-screen px-4 md:px-20  bg-[url(https://t3.ftcdn.net/jpg/01/62/47/66/360_F_162476658_ZoIJ9RKaoch0eTLQck8yxQMEuLsPkQ19.jpg)] bg-fixed bg-cover bg-center"
             >
                 <div className="flex flex-col md:flex-row">
                     <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
