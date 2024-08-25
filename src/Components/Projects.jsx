@@ -3,22 +3,25 @@ import pic from "../../public/home.png";
 
 const projects = [
     {
-        title: 'User Authentication',
+        title: 'CryptoTrendZ',
         description: 'Made for login and signup both functionality working to authenticate users if they have signed up already.',
-        technologies: ['HTML', 'CSS', 'React', 'Node.js', 'MongoDB'],
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJzWyZCkjKiA2h2ci8F49riUdyvmB0iSIk-w&s'
+        technologies: ['HTML', 'TailwindCSS', 'Javascript', 'React', 'Three.js', 'Chart.js', 'CoinGeckoAPI'],
+        image: 'https://m.economictimes.com/thumb/msid-79280279,width-1200,height-900,resizemode-4,imgsize-678018/bitcoin.jpg',
+        url: 'https://crypto-trendz.netlify.app/'
     },
     {
-        title: 'Chatting Application',
-        description: 'An application for chatting in real time is made by using web sockets and react for eyye catching UI/UX and logic',
-        technologies: ['HTML', 'CSS', 'React', 'Websockets'],
-        image: 'https://cdn.dribbble.com/users/7159574/screenshots/18575668/media/d213bbbf615c603059d1deef87b9adb4.jpg?resize=400x300&vertical=center'
+        title: 'FashionNest',
+        description: 'An Application for Ecommerce shopping made with muti features such as filtering and adding to cart with eye catchy styling.',
+        technologies: ['HTML', 'TailwindCSS', 'Javascript', 'React', 'Redux Toolkit'],
+        image: 'https://fashionnest.netlify.app/assets/hero-fozJKOYE.png',
+        url: 'https://fashionnest.netlify.app/'
     },
     {
-        title: 'Portfolio Website',
-        description: 'A personal portfolio website showcasing projects, skills, and contact information.',
-        technologies: ['HTML', 'CSS', 'React', 'TailwindCSS'],
-        image: 'https://pics.craiyon.com/2023-05-27/06538c41a3dd4a43b24553f26c0c7a5c.webp'
+        title: 'CodeWithh',
+        description: 'A code editor with an additional feature ingtegration of both codepen and compiler for a particular programming language.',
+        technologies: ['HTML', 'TailwindCSS', 'Javascript', 'React', 'ChakraUI', 'PistonAPI'],
+        image: 'https://pics.craiyon.com/2023-05-27/06538c41a3dd4a43b24553f26c0c7a5c.webp',
+        url: 'https://codewithh.netlify.app/'
     },
     {
         title: 'Multifeatured TODO App',

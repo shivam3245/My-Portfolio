@@ -8,8 +8,8 @@ function Experience() {
             date: 'March 2024 - April 2024',
             description: [
                 'Worked on Bizapp which is a business application of the organization for producers, actors and employees',
-                'Got opportunity to build Producer Employment Form using React vite and Bootstrap for interactive functions',
-                'Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.',
+                'Got opportunity to build Producer Employment Form using React vite and Bootstrap with interactive features',
+                'Collaborated with UX/UI designers to understand the design pattern and required features and functions of the form.',
             ],
         },
         {
