@@ -18,16 +18,16 @@ function Home() {
         <>
             <div
                 name="Home"
-                className="max-w-screen-2xl h-screen container pt-1 px-4 md:px-20 mb-20 bg-red-300"
+                className="max-w-screen-2xl container pt-1 pb-5 md:h-screen px-4 md:px-20  bg-[url(https://static.vecteezy.com/system/resources/thumbnails/023/308/046/small/abstract-grey-metallic-overlap-on-dark-circle-mesh-pattern-blank-space-design-modern-luxury-futuristic-background-vector.jpg)] bg-fixed bg-cover bg-center"
             >
                 <div className="flex flex-col md:flex-row">
                     <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-                        <span className="text-xl">Welcome To My Feed</span>
-                        <div className="flex space-x-2 text-2xl md:text-4xl">
+                        <span className="text-xl text-white">Welcome To My Feed</span>
+                        <div className="flex space-x-2 text-2xl md:text-4xl text-white">
                             <h1>Hello, I'm </h1>
                             {/* <span >Developer</span> */}
                             <ReactTyped
-                                className="text-red-700 font-bold"
+                                className="text-red-600 font-bold"
                                 strings={["Shivam Yadav", "Software Developer", "a Programmer"]}
                                 typeSpeed={50}
                                 backSpeed={50}
@@ -35,13 +35,13 @@ function Home() {
                             />
                         </div>
                         <br />
-                        <p className="text-sm md:text-lg text-justify">
+                        <p className="text-sm md:text-lg text-justify text-white">
                             I'm Shivam Yadav, a passionate React developer with a knack for building dynamic and responsive web applications. I hold a degree in B.E EXTC from Mumbai University, I have worked on several web development projects which sharpened my technical skills and problem-solving abilities. My expertise includes creating reusable React components, managing state with hooks and Redux, and integrating RESTful APIs. With a strong command of modern JavaScript, HTML5, and CSS3, I ensure my designs are both functional and visually appealing. I'm dedicated to continuous learning and staying updated with the latest web development trends. When I'm not coding, I enjoy contributing to open-source projects and engaging with the developer community.
                         </p>
                         <br />
                         {/* social media icons */}
                         <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
-                            <div className="  space-y-2">
+                            <div className="  space-y-2 text-white">
                                 <h1 className="font-bold text-center ">Available on</h1>
                                 <ul className="flex space-x-5 ">
                                     <li>
@@ -72,8 +72,8 @@ function Home() {
                                 </ul>
                             </div>
                             <div className=" space-y-2">
-                                <h1 className="font-bold text-center">Currently working on</h1>
-                                <div className="flex space-x-5">
+                                <h1 className="font-bold text-center text-white">Currently working on</h1>
+                                <div className="flex space-x-5 text-white">
                                     <FaHtml5 className="text-2xl md:text-3xl hover:scale-125 duration-200 rounded-full border-[2px] cursor-pointer" />
                                     <SiCss3 className="text-2xl md:text-3xl hover:scale-125 duration-200 rounded-full border-[2px] cursor-pointer" />
                                     <RiJavascriptFill className="text-2xl md:text-3xl hover:scale-125 duration-200 rounded-full border-[2px] cursor-pointer" />

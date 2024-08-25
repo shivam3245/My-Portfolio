@@ -52,7 +52,7 @@ function Navbar() {
                 </div>
                 {/* mobile navbar */}
                 {menu && (
-                    <div className="bg-gradient-to-b from-black to-purple-950 h-96 border rounded-md flex justify-center">
+                    <div className="bg-gradient-to-b from-black to-gray-900 h-96 border rounded-md flex justify-center">
                         <ul className="md:hidden flex flex-col text-white  items-center justify-center space-y-7 text-xl">
                             {navItems.map(({ id, text, section }) => (
                                 <li
