@@ -26,8 +26,8 @@ const projects = [
         codeUrl: 'https://github.com/shivam3245/Code-Withh'
     },
     {
-        title: 'Multifeatured TODO App',
-        description: 'A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.',
+        title: 'Multi-featured TODO App',
+        description: 'A ToDo app with multi features sucha as adding todo, editing todo and deleting todo and many more',
         technologies: ['HTML', 'CSS', 'TailwindCSS', 'JavaScript', 'React'],
         image: 'https://i.pinimg.com/originals/5e/81/9a/5e819a5ce865476b73087fd1276e7c3e.png',
         url: 'https://multi-featured-todo.netlify.app/',
@@ -35,11 +35,27 @@ const projects = [
     },
     {
         title: 'Currency Converter',
-        description: 'A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.',
+        description: 'A currency converter app for all of the countries available in the world can convert currency in one click  ',
         technologies: ['HTML', 'CSS', 'JavaScript'],
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREJ56KvG5TlZdaceG4EE5hvGjDwHAYarcJsA&s',
         url: 'https://currency-converter.netlify.app/',
         codeUrl: 'https://github.com/shivam3245/Currency-Converter-web-app'
+    },
+    {
+        title: 'TicTacToe',
+        description: 'Made a tictactoe game using html,css and javascript for understanding and implementing gamme logic into code',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        image: 'https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQdR5hPxiKG7MuJFuIe1lbrqandKE2QP5JzdrE4Dt6gnzu6Xnc0dCyK97yTeghVzkok',
+        url: 'https://helpful-quokka-227519.netlify.app/',
+        codeUrl: 'https://github.com/shivam3245/TicTacToe'
+    },
+    {
+        title: 'User Authentication',
+        description: 'Made a frontend for handling the user authenticationn from API and Databse havinng login and new user signup',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        image: 'https://swoopnow.com/wp-content/uploads/2020/07/User-Authentication_-Understanding-the-Basics-Top-Tips.jpg',
+        url: 'https://github.com/shivam3245/user-auth',
+        codeUrl: 'https://github.com/shivam3245/user-auth'
     }
 ];
 
