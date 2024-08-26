@@ -85,7 +85,7 @@ function Home() {
                     <div className="md:w-1/2 md:ml-48 md:mt-12 mt-8 order-1 ">
                         <img
                             src={pic}
-                            className="animate-darkToLight md:h-[650px] md-w-[550px]"
+                            className="animate-darkToLight md:h-[550px] md-w-[450px]"
                             alt=""
                         />
                     </div>
