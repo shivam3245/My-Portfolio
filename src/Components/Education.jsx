@@ -16,13 +16,13 @@ const Education = () => {
                                 className="w-16 h-16 object-cover rounded"
                             />
                             <div>
-                                <h2 className="text-xl font-semibold">Atharva College Of Engineering</h2>
+                                <h2 className="text-lg font-semibold">Atharva College Of Engineering</h2>
                                 <p className="text-sm text-gray-400">Bachelor of Engineering - Electronics and Telecommunication Engineering</p>
                                 <p className="text-sm text-gray-400">Feb 2020 - May 2024</p>
                             </div>
                         </div>
                         <p className="text-gray-400 mb-2">Grade: 8.29 CGPA</p>
-                        <p className="text-gray-300">
+                        <p className="text-gray-300 md:text-lg text-sm">
                             I have completed my Bachelors Of Engineering in Electronics and Telecommunications Engineering at Atharva College Of Engineering with an CGPA of 8.29
                         </p>
 
@@ -35,13 +35,13 @@ const Education = () => {
                                 className="w-16 h-16 bg-white"
                             />
                             <div>
-                                <h2 className="text-xl font-semibold">Shri TP Bhatia Jr College Of Science</h2>
+                                <h2 className="text-lg font-semibold">Shri TP Bhatia Jr College Of Science</h2>
                                 <p className="text-sm text-gray-400">HSC(XII), Science with Computer Science</p>
                                 <p className="text-sm text-gray-400">July 2019 - Apr 2020</p>
                             </div>
                         </div>
                         <p className="text-gray-400 mb-2">Grade: 60%</p>
-                        <p className="text-gray-300">
+                        <p className="text-gray-300 md:text-lg text-sm">
                             I have completed my class 12 high school education at Shri TP Bhatia Jr College of Science, Kandivali (West), where I studied Science with Computer Science.
                         </p>
 
@@ -55,13 +55,13 @@ const Education = () => {
                             className="w-16 h-16 object-cover rounded"
                         />
                         <div>
-                            <h2 className="text-xl font-semibold">Shri Dayanand Vidyalaya(English Medium)</h2>
+                            <h2 className="text-lg font-semibold">Shri Dayanand Vidyalaya(English Medium)</h2>
                             <p className="text-sm text-gray-400">SSC 10th</p>
                             <p className="text-sm text-gray-400">June 2017 - April 2018</p>
                         </div>
                     </div>
                     <p className="text-gray-400 mb-2">Grade: 86.40%</p>
-                    <p className="text-gray-300">
+                    <p className="text-gray-300 md:text-lg text-sm">
                         I have completed my SSC 10th from Shri Dayanand Vidyalaya English Medium where I scored with 86.40% in the year 2018 in 10th.
                     </p>
 
