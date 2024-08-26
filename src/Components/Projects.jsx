@@ -3,7 +3,7 @@ import React from 'react';
 const projects = [
     {
         title: 'CryptoTrendZ',
-        description: 'Made for login and signup both functionality working to authenticate users if they have signed up already.',
+        description: 'A cryptocurrency application to get the latest trends and chart graphs with the current rates, ups and down and much more',
         technologies: ['HTML', 'TailwindCSS', 'Javascript', 'React', 'Three.js', 'Chart.js', 'CoinGeckoAPI'],
         image: 'https://m.economictimes.com/thumb/msid-79280279,width-1200,height-900,resizemode-4,imgsize-678018/bitcoin.jpg',
         url: 'https://crypto-trendz.netlify.app/',
