@@ -92,7 +92,7 @@ const Projects = () => {
                                 )}
                                 {project.url && (
                                     <a href={project.url} target="_blank" rel="noopener noreferrer">
-                                        <button className="bg-red-800 hover:bg-red-500 text-white font-bold py-2 px-4 rounded">
+                                        <button className="bg-[#ff000b] hover:bg-red-500 text-white font-bold py-2 px-4 rounded">
                                             Live App
                                         </button>
                                     </a>
