@@ -30,7 +30,7 @@ function Contacts() {
         <>
             <div
                 name="Contact"
-                className="max-w-screen-2xl container px-4 md:px-20 bg-gradient-to-b from-gray-500 to-gray-950"
+                className="max-w-screen-2xl container px-4 pb-10 md:px-20 bg-[url(https://wallpapers-clan.com/wp-content/uploads/2023/11/captivating-total-black-abstract-wallpaper-scaled.jpg)] bg-fixed bg-cover bg-center"
             >
                 <div className="flex justify-center pt-20">
                     <h1 className="text-2xl md:text-3xl font-bold mb-4">

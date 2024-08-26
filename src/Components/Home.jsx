@@ -27,7 +27,7 @@ function Home() {
                             <h1>Hello, I'm </h1>
                             {/* <span >Developer</span> */}
                             <ReactTyped
-                                className="text-red-600 font-bold"
+                                className="text-[#ff000b] font-bold"
                                 strings={["Shivam Yadav", "Software Developer", "a Programmer"]}
                                 typeSpeed={50}
                                 backSpeed={50}
@@ -85,7 +85,7 @@ function Home() {
                     <div className="md:w-1/2 md:ml-48 md:mt-12 mt-8 order-1 ">
                         <img
                             src={pic}
-                            className="md:w-[550px] md:h-[550px] animate-darkToLight uneven-border"
+                            className="animate-darkToLight md:h-[650px] md-w-[550px]"
                             alt=""
                         />
                     </div>

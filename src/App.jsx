@@ -8,6 +8,7 @@ import Footer from './Components/Footer'
 import Contacts from './Components/Contacts'
 import { Toaster } from 'react-hot-toast'
 import Projects from './Components/Projects'
+import Education from './Components/Education'
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Skills />
         <Experience />
         <Projects />
+        <Education />
         <Contacts />
         <Footer />
       </div>
