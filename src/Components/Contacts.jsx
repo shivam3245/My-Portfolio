@@ -30,9 +30,9 @@ function Contacts() {
         <>
             <div
                 name="Contact"
-                className="max-w-screen-2xl container px-4 pb-10 md:px-20 bg-[url(https://wallpapers-clan.com/wp-content/uploads/2023/11/captivating-total-black-abstract-wallpaper-scaled.jpg)] bg-fixed bg-cover bg-center"
+                className="max-w-screen-2xl container px-4 pb-10 md:px-20 bg-[url(https://w0.peakpx.com/wallpaper/273/236/HD-wallpaper-black-dark-gray-gray.jpg)] bg-fixed bg-cover bg-center"
             >
-                <div className="flex justify-center pt-20">
+                <div className="flex justify-center md:pt-20 pt-10">
                     <h1 className="text-2xl md:text-3xl font-bold mb-4">
                         <ReactTyped
                             className="text-white font-bold pl-2"
