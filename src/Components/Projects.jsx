@@ -1,6 +1,30 @@
 import React from 'react';
-
+import pic1 from "../../public/Chat.jpeg";
 const projects = [
+    {
+        title: 'ChatWEB',
+        description: 'Developed an chatting application for one to one chatting with text message, and file sharing using MERN',
+        technologies: ['MongoDB', 'NodeJS', 'React', 'ExpressJS', 'TailwindCSS', 'Javascript', 'socket.io', 'JWT', 'AWS Cloud'],
+        image: pic1,
+        url: 'https://github.com/shivam3245/ChatWEB',
+        codeUrl: 'https://github.com/shivam3245/ChatWEB'
+    },
+    {
+        title: 'Expense Tracker',
+        description: 'Developed an Expense Tracker app which helps people managing their income with daily expenses',
+        technologies: ['MongoDB', 'NodeJS', 'React', 'ExpressJS', 'TailwindCSS', 'Javascript', 'socket.io', 'JWT', 'JOI'],
+        image: 'https://humanhood.co.in/cdn/shop/files/1_76e4e2ba-17c4-4be4-85ee-e44e4def29af.png?v=1723438778',
+        url: 'https://expense-tracker-mern-production-9819.up.railway.app/login',
+        codeUrl: 'https://github.com/shivam3245/Expense-Tracker-MERN'
+    },
+    {
+        title: 'Realtime Tracker',
+        description: 'Developed an realtime location tracker of user using socket.io which give realtime location of the users using the application',
+        technologies: ['NodeJS', 'ExpressJS', 'TailwindCSS', 'Javascript', 'React', 'socket.io'],
+        image: 'https://play-lh.googleusercontent.com/nizn-9Jxp3Z6hXC68y0sTwjp6nzN_rxpQ7cxQKyYN_qxZZplrxc-HnOPF5h9HEDTGQk',
+        url: 'https://github.com/shivam3245/realtime-tracker',
+        codeUrl: 'https://github.com/shivam3245/realtime-tracker'
+    },
     {
         title: 'CryptoTrendZ',
         description: 'A cryptocurrency application to get the latest trends and chart graphs with the current rates, ups and down and much more',

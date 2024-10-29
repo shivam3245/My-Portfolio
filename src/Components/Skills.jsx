@@ -13,8 +13,15 @@ function Skills() {
             { name: 'JavaScript', level: '65%' },
             { name: 'React.js', level: '60%' },
         ],
+        Backend: [
+            { name: 'NodeJS', level: '60%' },
+            { name: 'ExpressJS', level: '65%' },
+            { name: 'MongoDB', level: '50%' },
+            { name: 'SQL', level: '65%' },
+        ],
         Database: [
             { name: 'MS SQL Server', level: '60%' },
+            { name: 'MongoDB', level: '50%' }
 
         ],
         Tools: [
@@ -23,13 +30,7 @@ function Skills() {
             { name: 'GitHub', level: '60%' },
             { name: 'Autocad', level: '65%' },
 
-        ],
-        'Soft Skills': [
-            { name: 'Communication', level: '90%' },
-            { name: 'Teamwork', level: '85%' },
-            { name: 'Problem Solving', level: '80%' },
-            { name: 'Time Management', level: '75%' },
-        ],
+        ]
     };
 
     return (

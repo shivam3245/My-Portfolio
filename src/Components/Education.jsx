@@ -4,7 +4,7 @@ const Education = () => {
     return (
 
         <div name="Education">
-            <div className="bg-gray-950 bg-center bg-cover bg-fixed text-white py-12 px-4 md:px-20 ">
+            <div className="bg-gradient-to-r from-black to-purple-800 bg-center bg-cover bg-fixed text-white py-12 px-4 md:px-20 ">
                 <h1 className="md:text-3xl text-2xl font-bold text-center mb-10 p-2 ">My Education</h1>
                 <div className="space-y-8">
 
