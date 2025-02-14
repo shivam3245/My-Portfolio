@@ -5,24 +5,24 @@ function Experience() {
     const experiences = [
         {
             role: 'Software Developer Intern',
-            company: 'ZEE Entertainment Enterprises Ltd',
-            date: 'March 2024 - April 2024',
+            company: 'RK Software Solutions',
+            date: 'September 2024 - December 2024',
             description: [
-                'Worked on Bizapp which is a business application of the organization for producers, actors and employees',
-                'Got opportunity to build Producer Employment Form using React vite and Bootstrap with interactive features',
-                'Collaborated with UX/UI designers to understand the design pattern and required features and functions of the form.',
+                'Built a dynamic and responsive frontend using React and TailwindCSS, enabling real-time tracking of over 100 inquiries, 50+ quotations, and multiple customer transactions daily with data visualization through Chart.js.',
+                "Developed JWT-based authentication and RESTful APIs using Node.js and Express.js, optimizing security and performance. Reduced overall latency by 20% and minimized redundant API calls for improved efficiency"
             ],
         },
         {
             role: 'Software Developer Intern',
-            company: 'RK Software Solutions',
-            date: 'December 2023 - February 2024',
+            company: 'ZEE Entertainment Enterprises Ltd',
+            date: 'March 2024 - April 2024',
             description: [
-                'Built responsive web applications using React.js and implemented reusable components for consistency',
-                'Enhanced performance through code splitting, lazy loading, and resolving bottlenecks.',
-                'Connected applications to RESTful APIs and ensured data integrity with effective error handling.',
-            ],
+                'Developed a Producer Empanelment Form module under BizApp, a business application used by 100+ producers for streamlined onboarding.',
+                'Utilized React and Bootstrap to enhance user experience and achieve 100% responsiveness across devices.',
+                'Collaborated with a 5-member team, implementing efficient API handling for accurate database storage.'
+            ]
         }
+
     ];
 
     return (
