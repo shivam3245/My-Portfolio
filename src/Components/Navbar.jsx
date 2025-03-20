@@ -23,7 +23,7 @@ function Navbar() {
                         <img src={pic} className="h-16 w-12  rounded-full hover:scale-90" alt="" />
                         <h1 className="font-semibold text-xl cursor-pointer">
                             SHIVA<span className="text-green-500 text-2xl">m</span>
-                            <p className="text-sm">Web Developer</p>
+                            <p className="text-sm">Software Development Engineer</p>
                         </h1>
                     </div>
                     {/* desktop navbar */}
