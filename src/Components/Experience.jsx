@@ -6,7 +6,7 @@ function Experience() {
         {
             role: 'Software Developer Intern',
             company: 'RK Software Solutions',
-
+            date: 'July 2024 - September 2024',
             description: [
                 'Built a dynamic and responsive frontend using React and TailwindCSS, enabling real-time tracking of over 100 inquiries, 50+ quotations, and multiple customer transactions daily with data visualization through Chart.js.',
                 "Developed JWT-based authentication and RESTful APIs using Node.js and Express.js, optimizing security and performance. Reduced overall latency by 20% and minimized redundant API calls for improved efficiency"
@@ -15,7 +15,7 @@ function Experience() {
         {
             role: 'Software Developer Intern',
             company: 'ZEE Entertainment Enterprises Ltd',
-
+            date: 'March 2024 - April 2024',
             description: [
                 'Developed a Producer Empanelment Form module under BizApp, a business application used by 100+ producers for streamlined onboarding.',
                 'Utilized React and Bootstrap to enhance user experience and achieve 100% responsiveness across devices.',
