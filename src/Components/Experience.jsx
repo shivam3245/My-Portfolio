@@ -6,7 +6,7 @@ function Experience() {
         {
             role: 'Software Developer Intern',
             company: 'RK Software Solutions',
-            date: 'October 2024 - April 2025',
+            date: 'November 2024 - April 2025',
             description: [
                 'Built a dynamic and responsive frontend using React and TailwindCSS, enabling real-time tracking of over 100 inquiries, 50+ quotations, and multiple customer transactions daily with data visualization through Chart.js.',
                 "Developed JWT-based authentication and RESTful APIs using Node.js and Express.js, optimizing security and performance. Reduced overall latency by 20% and minimized redundant API calls for improved efficiency"
